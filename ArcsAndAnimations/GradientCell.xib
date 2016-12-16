@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reusableCellId" rowHeight="182" id="lbA-uZ-1x6" customClass="GradientCell" customModule="ArcsAndAnimations" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="182"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lbA-uZ-1x6" id="pVc-j4-nX3">
+                <rect key="frame" x="0.0" y="0.0" width="485" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WjT-fe-pCw">
+                        <rect key="frame" x="29" y="0.0" width="427" height="182"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WjT-fe-pCw" firstAttribute="top" secondItem="pVc-j4-nX3" secondAttribute="top" id="1Xt-K3-8Qe"/>
+                    <constraint firstAttribute="bottom" secondItem="WjT-fe-pCw" secondAttribute="bottom" id="Hg0-cV-pFs"/>
+                    <constraint firstItem="WjT-fe-pCw" firstAttribute="leading" secondItem="pVc-j4-nX3" secondAttribute="leading" constant="29" id="hhf-IS-dFs"/>
+                    <constraint firstAttribute="trailing" secondItem="WjT-fe-pCw" secondAttribute="trailing" constant="29" id="q3L-9G-nYt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-151.5" y="-44"/>
+        </tableViewCell>
+    </objects>
+</document>

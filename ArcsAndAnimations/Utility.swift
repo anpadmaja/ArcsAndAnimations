@@ -13,10 +13,11 @@ import CoreGraphics
 class Utility {
   
   func drawLinearGradient(context:CGContext, rect: CGRect, startcolor startColor: CGColor, endcolor endColor: CGColor) {
+    let midColor = UIColor.orange.cgColor
     let colorSpace: CGColorSpace = CGColorSpaceCreateDeviceRGB()
-    let locations: [CGFloat]   = [0.0, 1.0]
+    let locations: [CGFloat]   = [0.0, 0.5, 1.0] // give the locations based on 100%. number of colors == no. of locations
     
-    let colors: NSArray =  [startColor, endColor]
+    let colors: NSArray =  [startColor,midColor, endColor]
     let gradient:CGGradient  = CGGradient(colorsSpace: colorSpace, colors: colors, locations: locations)!
     let start:CGPoint = CGPoint.init(x: rect.midX, y: rect.minY);
     let end:CGPoint = CGPoint.init(x: rect.midX, y: rect.maxY);

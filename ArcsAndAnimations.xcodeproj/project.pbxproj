@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E82500D21DFFDA3D00E23838 /* CustomCellBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82500D11DFFDA3D00E23838 /* CustomCellBackground.swift */; };
 		E82500D41E007D8B00E23838 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82500D31E007D8B00E23838 /* Utility.swift */; };
+		E8C26DDD1E04B47F005EAC22 /* GradientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C26DDC1E04B47F005EAC22 /* GradientCell.xib */; };
+		E8C26DDF1E04B48B005EAC22 /* GradientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C26DDE1E04B48B005EAC22 /* GradientCell.swift */; };
 		E8F3910A1DFE8FE400B987C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F391091DFE8FE400B987C8 /* AppDelegate.swift */; };
 		E8F3910C1DFE8FE400B987C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3910B1DFE8FE400B987C8 /* ViewController.swift */; };
 		E8F3910F1DFE8FE400B987C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F3910D1DFE8FE400B987C8 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		E82500D11DFFDA3D00E23838 /* CustomCellBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellBackground.swift; sourceTree = "<group>"; };
 		E82500D31E007D8B00E23838 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E8C26DDC1E04B47F005EAC22 /* GradientCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientCell.xib; sourceTree = "<group>"; };
+		E8C26DDE1E04B48B005EAC22 /* GradientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientCell.swift; sourceTree = "<group>"; };
 		E8F391061DFE8FE400B987C8 /* ArcsAndAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcsAndAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F391091DFE8FE400B987C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F3910B1DFE8FE400B987C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				E8F391151DFE8FE400B987C8 /* Info.plist */,
 				E82500D11DFFDA3D00E23838 /* CustomCellBackground.swift */,
 				E82500D31E007D8B00E23838 /* Utility.swift */,
+				E8C26DDC1E04B47F005EAC22 /* GradientCell.xib */,
+				E8C26DDE1E04B48B005EAC22 /* GradientCell.swift */,
 			);
 			path = ArcsAndAnimations;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 				E8F391141DFE8FE400B987C8 /* LaunchScreen.storyboard in Resources */,
 				E8F391111DFE8FE400B987C8 /* Assets.xcassets in Resources */,
 				E8F3910F1DFE8FE400B987C8 /* Main.storyboard in Resources */,
+				E8C26DDD1E04B47F005EAC22 /* GradientCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E82500D41E007D8B00E23838 /* Utility.swift in Sources */,
+				E8C26DDF1E04B48B005EAC22 /* GradientCell.swift in Sources */,
 				E8F3910C1DFE8FE400B987C8 /* ViewController.swift in Sources */,
 				E82500D21DFFDA3D00E23838 /* CustomCellBackground.swift in Sources */,
 				E8F3910A1DFE8FE400B987C8 /* AppDelegate.swift in Sources */,

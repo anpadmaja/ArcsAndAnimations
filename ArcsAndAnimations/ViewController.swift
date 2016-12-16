@@ -17,7 +17,7 @@ class ViewController: UITableViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     self.title = "Core Graphics 101"
-    
+    self.tableView.register(GradientCell.self, forCellReuseIdentifier: "reusableCellId")
     
   }
 
@@ -41,7 +41,7 @@ class ViewController: UITableViewController {
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     var entry: String = ""
-    guard let cellToReturn = tableView.dequeueReusableCell(withIdentifier: "cell") else {
+    guard let cellToReturn = tableView.dequeueReusableCell(withIdentifier: "reusableCellId") else {
       return UITableViewCell()
     }
     cellToReturn.backgroundView = CustomCellBackground()
