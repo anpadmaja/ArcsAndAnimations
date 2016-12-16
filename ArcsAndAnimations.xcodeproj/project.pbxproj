@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82500D21DFFDA3D00E23838 /* CustomCellBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82500D11DFFDA3D00E23838 /* CustomCellBackground.swift */; };
+		E82500D41E007D8B00E23838 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82500D31E007D8B00E23838 /* Utility.swift */; };
 		E8F3910A1DFE8FE400B987C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F391091DFE8FE400B987C8 /* AppDelegate.swift */; };
 		E8F3910C1DFE8FE400B987C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3910B1DFE8FE400B987C8 /* ViewController.swift */; };
 		E8F3910F1DFE8FE400B987C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F3910D1DFE8FE400B987C8 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E82500D11DFFDA3D00E23838 /* CustomCellBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellBackground.swift; sourceTree = "<group>"; };
+		E82500D31E007D8B00E23838 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		E8F391061DFE8FE400B987C8 /* ArcsAndAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcsAndAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F391091DFE8FE400B987C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F3910B1DFE8FE400B987C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				E8F391101DFE8FE400B987C8 /* Assets.xcassets */,
 				E8F391121DFE8FE400B987C8 /* LaunchScreen.storyboard */,
 				E8F391151DFE8FE400B987C8 /* Info.plist */,
+				E82500D11DFFDA3D00E23838 /* CustomCellBackground.swift */,
+				E82500D31E007D8B00E23838 /* Utility.swift */,
 			);
 			path = ArcsAndAnimations;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					E8F391051DFE8FE400B987C8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -135,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82500D41E007D8B00E23838 /* Utility.swift in Sources */,
 				E8F3910C1DFE8FE400B987C8 /* ViewController.swift in Sources */,
+				E82500D21DFFDA3D00E23838 /* CustomCellBackground.swift in Sources */,
 				E8F3910A1DFE8FE400B987C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +264,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paypal.ArcsAndAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paypal.ArcsAndAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +299,7 @@
 				E8F3911A1DFE8FE400B987C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
